@@ -23,6 +23,7 @@ module Jasmine
     autoload :FileChecker, 'jasmine/headless/file_checker'
 
     autoload :CoffeeTemplate, 'jasmine/headless/coffee_template'
+    autoload :HamlcTemplate, 'jasmine/headless/hamlc_template'
     autoload :JSTemplate, 'jasmine/headless/js_template'
     autoload :JSTTemplate, 'jasmine/headless/jst_template'
     autoload :CSSTemplate, 'jasmine/headless/css_template'
