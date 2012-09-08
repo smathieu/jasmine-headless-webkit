@@ -78,7 +78,7 @@ module Jasmine::Headless
 
         # create a tmp directory to put the compiled code in
         # this assumes you are running out of your project root!
-        FileUtils.mkdir_p(tmp_haml_coffee_assets_path = File.join(Dir.pwd, "tmp/haml_coffee_assets/javascripts"))
+        FileUtils.mkdir_p(tmp_haml_coffee_assets_path = File.join(Dir.pwd, "tmp/haml_coffee/javascripts"))
         File.open(File.join(tmp_haml_coffee_assets_path, "hamlcoffee.js.coffee"), 'w') do |f|
           f.write compiled_haml_coffee_template
         end
